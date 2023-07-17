@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    background-color: rgb(150, 150, 225);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frame{
+    height: fit-content;
+    width: fit-content;
+    background-color: rgb(241, 236, 228);
+    text-align: center;
+    padding: 50px;
+    box-shadow: 5px 5px 15px #fff;
+    border-radius: 60px 10px 60px 10px;
+}
+
+.heading{
+    font-size: 40px;
+    color: rgb(65, 10, 116);
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    color: rgb(38, 18, 58);
+}
+
+button{
+    border: none;
+    outline: none;
+    font-size: 25px;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    
+
+}
+
+button:hover{
+    cursor: pointer; 
+}
+
+button:active{
+    box-shadow: inset 5px 5px 10px #fff;
+}
